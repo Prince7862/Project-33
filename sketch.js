@@ -11,7 +11,7 @@ var divisionHeight = 300;
 var score = 0;
 
 function setup() {
-  var canvas = createCanvas(890, 796);
+  var canvas = createCanvas(displayWidth/1.6, displayHeight/1.1);
   engine = Engine.create();
   world = engine.world;
 
